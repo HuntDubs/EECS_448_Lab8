@@ -1,7 +1,13 @@
-.header {
+h1 {
     padding: 60px;
     text-align: center;
     background: #68cae7;
     color: white;
     font-size: 30px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+
 }
