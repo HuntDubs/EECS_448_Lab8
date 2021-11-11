@@ -4,10 +4,34 @@ h1 {
     background: #68cae7;
     color: white;
     font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
-    width: 500px;
-    height: 500px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
 
+}
+
+img:hover {
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: dimgray;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 220, 241);
+    font-size: 20px;
+    font-family: 'times-new-roman';
+    text-align: center;
 }
