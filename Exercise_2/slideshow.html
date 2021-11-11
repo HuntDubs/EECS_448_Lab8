@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Slide Show</title>
-        <script type="text/javascript" scr="slideshow.js"></script>
+        <script type=text/javascript scr="slideshow.js"></script>
 
         <style>
             .button {
@@ -21,9 +21,11 @@
 
     <body>
         <h1>Scroll through the Slideshow</h1>
-        <button class="button" onclick="slideShow()">Previous</button>
-        <image src="" id="imageID" width="100" height="200"></image>
-        <button class="button" onclick="slideShow()">Next</button>
+        <div>
+            <button class="button" onclick="slide(0)">Previous</button>
+            <image src="" id="imageID" width="100" height="200"></image>
+            <button class="button" onclick="slide(1)">Next</button>
+        </div>
 
     </body>
 </html>
